@@ -7,7 +7,7 @@ class PlaneGame(object)
 def __init__(self):
   print("game is loading...")
   
-  self.screen = pygame.display.set_mode((400,700))
+  self.screen = pygame.display.set_mode(SCREEN_RECT.size)
   self.clock = pygame.time.Clock()
   self.__create_sprites()
   
