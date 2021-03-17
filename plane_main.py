@@ -1,11 +1,15 @@
 import pygame
-from plane_stripes import *
+from plane_sprites import *
 
 
 class PlaneGame(object)
 
 def __init__(self):
   print("game is loading...")
+  
+  self.screen = pygame.display.set_mode((400,700))
+  self.clock = pygame.time.Clock()
+  self.__create_sprites()
   
 def start_game(self):
   print("game starts")
