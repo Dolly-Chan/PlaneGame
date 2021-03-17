@@ -13,6 +13,12 @@ def __init__(self):
   
 def start_game(self):
   print("game starts")
+  
+  while Ture:
+    pass
+
+def __event_handler(self):
+  
 
   
 if __name__ = '__main__':
