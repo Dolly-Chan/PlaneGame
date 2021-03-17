@@ -1,6 +1,6 @@
 import pygame
 
-SCREEN_RECT = pygame.Rect(0,0,700,500)
+SCREEN_RECT = pygame.Rect(0,0,480,700)
 
 class GameSprites(pygame.sprites.Sprites):
   
